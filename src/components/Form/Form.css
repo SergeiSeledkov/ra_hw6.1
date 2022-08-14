@@ -1,0 +1,46 @@
+.Watces-form {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   color: rgb(83, 91, 105);
+}
+
+.Watces-Field {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   margin-right: 20px;
+}
+
+.label {
+   margin-bottom: 15px;
+}
+
+.Form-button {
+   color: rgb(83, 91, 105);
+   height: 30px;
+   margin-top: auto;
+   background-color: transparent;
+   border: 1 solid #000;
+}
+
+.Watces-Control {
+   box-sizing: border-box;
+   height: 30px;
+   width: 120px;
+   border: 1px solid #000;
+   color: rgb(83, 91, 105);
+   padding-left: 10px;
+}
+
+.Watces-Control:focus {
+   outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   /* display: none; <- Crashes Chrome on hover */
+   -webkit-appearance: none;
+   margin: 0;
+   /* <-- Apparently some margin are still there even though it's hidden */
+}
